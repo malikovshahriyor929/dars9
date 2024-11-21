@@ -1,0 +1,41 @@
+@use "./mixins" as mix;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+i {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+.main {
+  @include mix.flexBox(space-between, flex-start, 20px);
+ 
+}
+@media(min-width:1440px){
+  .container2{
+    width: 1350px;
+    margin: 0 auto;
+  }
+}

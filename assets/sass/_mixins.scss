@@ -1,0 +1,11 @@
+@mixin gridBox($gc, $g) {
+  display: grid;
+  grid-template-columns: $gc;
+  gap: $g;
+}
+@mixin flexBox($js, $al, $g) {
+  display: flex;
+  justify-content: $js;
+  align-items: $al;
+  gap: $g;
+}

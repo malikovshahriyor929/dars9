@@ -1,0 +1,12 @@
+{
+  "name": "9-dars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w assets/sass/style.scss:assets/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
